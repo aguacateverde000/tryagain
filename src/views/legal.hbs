@@ -1,0 +1,676 @@
+<div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+          <div class="container-fluid">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="/">
+              <img src="/img/logo-minnerg-com.png" alt="" class="img-nav">
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="navbar-nav navbar-nav-hover mx-auto">
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " id="dropdownMenuAccount" data-bs-toggle="dropdown" aria-expanded="false">
+              Autenticación
+              <img src="/img/down-arrow-dark.svg " alt="down-arrow" class="arrow ms-1 d-lg-block d-none">
+              <img src="/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1 d-lg-none d-block">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation dropdown-lg border-radius-xl p-3 mt-0 mt-lg-3" aria-labelledby="dropdownMenuAccount">
+              <div class="row d-none d-lg-flex">
+                <div class="col-6">
+                  <div class="py-6 h-100 w-100 d-flex border-radius-lg position-relative dropdown-image" style="background-image:url('/img/curved-images/curved8.jpg')">
+                    <div class="mask bg-gradient-primary border-radius-lg"></div>
+                    <div class="d-flex justify-content-center align-items-center text-center text-white font-weight-bold w-100 z-index-1 flex-column">
+                      <div class="icon icon-shape rounded-circle bg-white shadow text-center">
+                        <i class="ni ni-key-25 text-primary text-gradient text-lg" aria-hidden="true"></i>
+                      </div>
+                      <span class="text-lg mt-2">Opciones Auth<br></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 ps-0 d-flex justify-content-center flex-column">
+                  <ul class="list-group">
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" href="/login" id="dropdownSignIn">
+                        <span>Iniciar Sesión</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" href="/signup" id="dropdownSignUp">
+                        <span>Registrarse</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" id="dropdownPasswordReset">
+                        <span>Restablecer Contraseña</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" id="dropdownLock">
+                        <span>Cerrar con Llave</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" id="dropdown2fa">
+                        <span>Verificación de dos pasos</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row d-lg-none">
+                <div class="col-12 d-flex justify-content-center flex-column">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="/signup">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Registrarse</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="/login">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Iniciar Sesión</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Restablecer Contraseña</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Cerrar con Llave</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Verificación de dos pasos</h6>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+              Documentación
+              <img src="/img/down-arrow-dark.svg " alt="down-arrow" class="arrow ms-1 d-lg-block d-none">
+              <img src="/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1 d-lg-none d-block">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+              <div class="d-none d-lg-block">
+                <ul class="list-group">
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                      <div class="d-flex">
+                        <div class="icon h-10 me-3 d-flex mt-1">
+                          <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>spaceship</title>
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g transform="translate(1716.000000, 291.000000)">
+                                  <g transform="translate(4.000000, 301.000000)">
+                                    <path class="color-background" d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
+                                    <path class="color-background" d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
+                                    <path class="color-background" d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
+                                    <path class="color-background" d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" opacity="0.598539807"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Empezando</h6>
+                          <span class="text-sm">Todo sobre descripción general, inicio rápido, licencia y contenido</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                      <div class="d-flex">
+                        <div class="icon h-10 me-3 d-flex mt-1">
+                          <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>document</title>
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g transform="translate(1716.000000, 291.000000)">
+                                  <g transform="translate(154.000000, 300.000000)">
+                                    <path class="color-background" d="M40,40 L36.3636364,40 L36.3636364,3.63636364 L5.45454545,3.63636364 L5.45454545,0 L38.1818182,0 C39.1854545,0 40,0.814545455 40,1.81818182 L40,40 Z" opacity="0.603585379"></path>
+                                    <path class="color-background" d="M30.9090909,7.27272727 L1.81818182,7.27272727 C0.814545455,7.27272727 0,8.08727273 0,9.09090909 L0,41.8181818 C0,42.8218182 0.814545455,43.6363636 1.81818182,43.6363636 L30.9090909,43.6363636 C31.9127273,43.6363636 32.7272727,42.8218182 32.7272727,41.8181818 L32.7272727,9.09090909 C32.7272727,8.08727273 31.9127273,7.27272727 30.9090909,7.27272727 Z M18.1818182,34.5454545 L7.27272727,34.5454545 L7.27272727,30.9090909 L18.1818182,30.9090909 L18.1818182,34.5454545 Z M25.4545455,27.2727273 L7.27272727,27.2727273 L7.27272727,23.6363636 L25.4545455,23.6363636 L25.4545455,27.2727273 Z M25.4545455,20 L7.27272727,20 L7.27272727,16.3636364 L25.4545455,16.3636364 L25.4545455,20 Z"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Documentación Gráfica</h6>
+                          <span class="text-sm">Observe de manera explícita el proyecto</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row d-lg-none">
+                <div class="col-md-12 g-0">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div class="icon h-10 me-3 d-flex mt-1">
+                        <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>spaceship</title>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                              <g transform="translate(1716.000000, 291.000000)">
+                                <g transform="translate(4.000000, 301.000000)">
+                                  <path class="color-background" d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
+                                  <path class="color-background" d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
+                                  <path class="color-background" d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
+                                  <path class="color-background" d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" opacity="0.598539807"></path>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Empezando</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                      <div class="d-flex">
+                        <div class="icon h-10 me-3 d-flex mt-1">
+                          <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>document</title>
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g transform="translate(1716.000000, 291.000000)">
+                                  <g transform="translate(154.000000, 300.000000)">
+                                    <path class="color-background" d="M40,40 L36.3636364,40 L36.3636364,3.63636364 L5.45454545,3.63636364 L5.45454545,0 L38.1818182,0 C39.1854545,0 40,0.814545455 40,1.81818182 L40,40 Z" opacity="0.603585379"></path>
+                                    <path class="color-background" d="M30.9090909,7.27272727 L1.81818182,7.27272727 C0.814545455,7.27272727 0,8.08727273 0,9.09090909 L0,41.8181818 C0,42.8218182 0.814545455,43.6363636 1.81818182,43.6363636 L30.9090909,43.6363636 C31.9127273,43.6363636 32.7272727,42.8218182 32.7272727,41.8181818 L32.7272727,9.09090909 C32.7272727,8.08727273 31.9127273,7.27272727 30.9090909,7.27272727 Z M18.1818182,34.5454545 L7.27272727,34.5454545 L7.27272727,30.9090909 L18.1818182,30.9090909 L18.1818182,34.5454545 Z M25.4545455,27.2727273 L7.27272727,27.2727273 L7.27272727,23.6363636 L25.4545455,23.6363636 L25.4545455,27.2727273 Z M25.4545455,20 L7.27272727,20 L7.27272727,16.3636364 L25.4545455,16.3636364 L25.4545455,20 Z"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Documentación Gráfica</h6>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="/login" class="btn btn-sm  bg-gradient-secondary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Iniciar Sesión</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="/signup" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Registrarse</a>
+          </li>
+        </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container" style="position: fixed; z-index: 1; margin-top: 13vh;">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "Nasdaq 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "BTC/USD"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "ETH/USD"
+      }
+    ],
+    "showSymbolLogo": false,
+    "colorTheme": "white",
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "locale": "es"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+<div class="wrapper" style="margin-top: 30vh;">
+    <div class="section features-1">
+      <div class="container">
+        <div class="team">
+          <div class="row">
+              <div>
+              <h2>1. AVISO LEGAL Y TÉRMINOS DE USO</h2>
+              <p>
+                Puedo garantizarte que te encuentras en un espacio 100% seguro, por ello, dando cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se hace constar:
+              </p></br>
+              <h2>1.1. Datos identificativos del responsable</h2>
+              <p>
+                  Tal y como recoge la Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico, le informo que:
+              </p>
+              <p>
+                Nuestra denominación social es:  Tradingusd, Inc.</br>
+                Email: info@tradingusd.com</br>
+                Nuestra actividad social es: Trading, Inversiones y Criptomonedas
+              </p></br>
+              <h2>1.2. Finalidad de la página web.</h2>
+              <p>
+                Los servicios prestados por el responsable de la página web son los siguientes:
+              </p>
+              <p>
+                La venta de formación y servicios sobre Trading, Inversiones y Criptomonedas</br>
+                Gestionar la lista de suscriptores y usuarios adscritos a la comprar de servicios.</br>
+                Suministro de contenidos en la página principal y subpáginas</br>
+                Dirigir su red de afiliados y comerciantes así como la gestión de pagos de los mismos.
+              </p></br>
+              <h2>1.3. Usuarios:</h2>
+              <p>
+                El acceso y/o uso de este sitio web atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, los presentes términos de uso, no obstante, por el mero uso de la página web no significa el inicio de relación laboral/comercial alguna.
+              </p></br>
+              <h2>1.4. Uso del sitio web y captura de información:</h2>
+              <h3>1.4.1 USO DEL SITIO WEB</h3>
+              <p>La página web https://www.tradingusd.com adelante (LA WEB) proporciona el acceso a artículos, informaciones, servicios y datos (en adelante, “los contenidos”) propiedad de Tradingusd, Inc. El USUARIO asume la responsabilidad del uso de la web.</p></br>
+              <p>El USUARIO se compromete a hacer un uso adecuado de los contenidos que ofrece a través de su web y con carácter enunciativo pero no limitativo, a no emplearlos para:</p>
+              <p>
+                (a) incurrir en actividades ilícitas, ilegales o contrarias a la buena fe y al orden público;</br>
+                (b) difundir contenidos o propaganda de carácter racista, xenófobo, pornográfico-ilegal, de apología del terrorismo o atentatorio contra los derechos humanos;</br>
+                (c) provocar daños en los sistemas físicos y lógicos de https://www.tradingusd, de sus proveedores o de terceras personas, introducir o difundir en la red virus informáticos o cualesquiera otros sistemas físicos o lógicos que sean susceptibles de provocar los daños anteriormente mencionados;</br>
+                (d) intentar acceder y, en su caso, utilizar las cuentas de correo electrónico de otros usuarios y modificar o manipular sus mensajes.</br>
+              </p></br>
+              <p>
+                Tradingusd, Inc. se reserva el derecho de retirar todos aquellos comentarios y aportaciones que vulneren el respeto a la dignidad de la persona, que sean discriminatorios, xenófobos, racistas, pornográficos, que atenten contra la juventud o la infancia, el orden o la seguridad pública o que, a su juicio, no resultaran adecuados para su publicación.
+              </p></br>
+              <p>
+                En cualquier caso, Tradingusd, Inc. no será responsable de las opiniones vertidas por los usuarios a través del blog u otras herramientas de participación que puedan crearse, conforme a lo previsto en la normativa de aplicación.
+              </p></br>
+              <h2>1.4.2 Captura de información</h2>
+              <p> 
+                – Formulario de contacto, donde el USUARIO deberá rellenar el campo de correo electrónico, asunto y nombre.</br>
+                – Formulario de suscripción, rellenando el USUARIO los campos necesarios para la compra de productos con los campos de nombre, apellidos, dirección, ciudad, país, estado, código postal, email y contraseña.</br>
+                – Cookies de rastreo, conforme a las siguientes reglas.</br>
+                – Navegación y Dirección IP: Al navegar por esta web, el usuario facilita de forma automática al servidor de la web información relativa a tu dirección IP, fecha y hora de acceso, el hipervínculo que le ha reenviado a éstas, tu sistema operativo y el navegador utilizado.</br>
+              </p></br>
+              <p>
+                A pesar de lo anterior, los usuarios podrán darse de baja en cualquier momento de los servicios prestados por Tradingusd, Inc. o datos aportados por el USUARIO dando cumplimiento a la normativa vigente sobre Protección de Datos. Asimismo, tanto al suscribirse a esta página web como al realizar algún comentario en cualquiera de sus páginas y/o entradas, el usuario consiente:
+              </p>
+              <p>
+                El tratamiento de sus datos personales en nuestro entorno conforme a sus políticas de privacidad.
+              </p></br>
+              <p>
+                El acceso de Tradingusd, Inc. a los datos que, de acuerdo con nuestra infraestructura, necesite el usuario aportar bien para la compra bien para cualquier consulta mediante el formulario de contacto.
+              </p></br>
+              <p>
+                Asimismo, informamos que la información de nuestros usuarios está protegida de acuerdo a nuestra política de privacidad.
+              </p></br>
+              <p>Al activar una suscripción, formulario de contacto o comentario, el usuario comprende y acepta que:</p>
+              <p>
+                Desde el momento en que efectúa su compra o accedes a algún servicio de pago, Tradingusd, Inc. tiene acceso a: Nombre, y email, o demás datos necesarios para facturación conformando un fichero debidamente inscrito en el Registro General de la Agencia Española de Protección de Datos con el nombre de “USUARIOS DE LA WEB Y SUSCRIPTORES” o en el caso de realizar alguna compra, será suscrito al fichero de “CLIENTES Y/O PROVEEDORES” teniendo acceso a datos de nombre, apellidos, email, dni y domicilio completo.
+              </p></br>
+              <p>
+                En todo caso Tradingusd, Inc. se reserva el derecho de modificar, en cualquier momento y sin necesidad de previo aviso, la presentación y configuración de la web https://wwww.tradingusd.com como el presente aviso legal.
+              </p></br>
+              <h2>2. PROPIEDAD INTELECTUAL E INDUSTRIAL:</h2>
+              <p>
+                Tradingusd, Inc. por sí o como cesionario, es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma (a título enunciativo, imágenes, sonido, audio, vídeo, software o textos; marcas o logotipos, combinaciones de colores, estructura y diseño, selección de materiales usados, programas de ordenador necesarios para su funcionamiento, acceso y uso, etc.), titularidad de Tradingusd, Inc. o bien de sus licenciantes. Todos los derechos reservados.
+              </p></br>
+              <p>
+                Cualquier uso no autorizado previamente por Tradingusd, Inc. será considerado un incumplimiento grave de los derechos de propiedad intelectual o industrial del autor.
+              </p></br>
+              <p>
+                Quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización de Tradingusd, Inc.
+              </p></br>
+              <p>
+                El USUARIO se compromete a respetar los derechos de Propiedad Intelectual e Industrial titularidad de Tradingusd, Inc., Podrá visualizar únicamente los elementos de la web sin posibilidad de imprimirlos, copiarlos o almacenarlos en el disco duro de su ordenador o en cualquier otro soporte físico. El USUARIO deberá abstenerse de suprimir, alterar, eludir o manipular cualquier dispositivo de protección o sistema de seguridad que estuviera instalado en las páginas de Tradingusd, Inc.
+              </p></br>
+              <p>
+                Queda terminantemente prohibido compartir la licencia para uso con más personas, cada licencia es personal e intransferible reservándonos cuantas acciones civiles y penales nos asistan en aras de salvaguardar nuestros derechos, todo ello bajo apercibimiento de incurrir en un delito contra la propiedad intelectual de la Ley sobre el Derecho de Autor con penas de prisión de hasta 4 años.
+              </p></br>
+              <h2>3. EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD</h2>
+              <p>
+                Tradingusd, Inc. no se hace responsable, en ningún caso, de los daños y perjuicios de cualquier naturaleza que pudieran ocasionar, a título enunciativo: por errores u omisiones en los contenidos, por falta de disponibilidad del sitio web, – el cual realizará paradas periódicas por mantenimientos técnicos – así como por la transmisión de virus o programas maliciosos o lesivos en los contenidos, a pesar de haber adoptado todas las medidas tecnológicas necesarias para evitarlo.
+              </p></br>
+              <h2>4. MODIFICACIONES</h2>
+              <p>
+                Tradingusd, Inc. se reserva el derecho de efectuar sin previo aviso las modificaciones que considere oportunas en su web, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en su web.
+              </p></br>
+              <h2>5. POLÍTICA DE ENLACES</h2>
+              <p>
+                Las personas o entidades que pretendan realizar o realicen un hiperenlace desde una página web de otro portal de Internet a la web de Tradingusd, Inc. , deberá someterse las siguientes condiciones:
+              </p></br>
+              <p>
+                No se permite la reproducción total o parcial de ninguno de los servicios ni contenidos del sitio web sin la previa autorización expresa de Tradingusd, Inc.</br></br>
+                No se establecerán deep-links ni enlaces IMG o de imagen, ni frames con la web de Tradingusd, Inc., sin su previa autorización expresa.</br></br>
+                No se establecerá ninguna manifestación falsa, inexacta o incorrecta sobre la web de Tradingusd, Inc. , ni sobre los servicios o contenidos de la misma. Salvo aquellos signos que formen parte del hipervínculo, la página web en la que se establezca no contendrá ninguna marca, nombre comercial, rótulo de establecimiento, denominación, logotipo, eslogan u otros signos distintivos pertenecientes a Tradingusd, Inc. , salvo autorización expresa de éste.</br></br>
+                El establecimiento del hipervínculo no implicará la existencia de relaciones entre Tradingusd, Inc. y el titular de la página web o del portal desde el cual se realice, ni el conocimiento y aceptación de Tradingusd, Inc. de los servicios y contenidos ofrecidos en dicha página web o portal.</br></br>
+                Tradingusd, Inc. no será responsable de los contenidos o servicios puestos a disposición del público en la página web o portal desde el cual se realice el hipervínculo, ni de las informaciones y manifestaciones incluidas en los mismos.El sitio web de Tradingusd, Inc. puede poner a disposición del usuario conexiones y enlaces a otros sitios web gestionados y controlados por terceros. Dichos enlaces tienen como exclusiva función, la de facilitar a los usuarios la búsqueda de información, contenidos y servicios en Internet, sin que en ningún caso pueda considerarse una sugerencia, recomendación o invitación para la visita de los mismos.</br></br>
+                Tradingusd, Inc. no comercializa, ni dirige, ni controla previamente, ni hace propios los contenidos, servicios, informaciones y manifestaciones disponibles en dichos sitios web.</br></br>
+                Tradingusd, Inc. no asume ningún tipo de responsabilidad, ni siquiera de forma indirecta o subsidiaria, por los daños y perjuicios de toda clase que pudieran derivarse del acceso, mantenimiento, uso, calidad, licitud, fiabilidad y utilidad de los contenidos, informaciones, comunicaciones, opiniones, manifestaciones, productos y servicios existentes u ofrecidos en los sitios web no gestionados por Tradingusd, Inc. y que resulten accesibles a través de Tradingusd, Inc.</br></br>
+              </p></br>
+              <h2>6. DERECHO DE EXCLUSIÓN</h2>
+              <p>
+                Tradingusd, Inc. se reserva el derecho a denegar o retirar el acceso al portal y/o los servicios ofrecidos sin necesidad de preaviso, a instancia propia o de un tercero, a aquellos usuarios que incumplan las presentes Condiciones Generales de Uso.
+              </p></br>
+              <h2>7. GENERALIDADES</h2>
+              <p>
+                Tradingusd, Inc. perseguirá el incumplimiento de las presentes condiciones así como cualquier utilización indebida de su web ejerciendo todas las acciones civiles y penales que le puedan corresponder en derecho.
+              </p></br>
+              <h2>8. MODIFICACIÓN DE LAS PRESENTES CONDICIONES Y DURACIÓN</h2>
+              <p>
+                Tradingusd, Inc. podrá modificar en cualquier momento las condiciones aquí determinadas, siendo debidamente publicadas como aquí aparecen. La vigencia de las citadas condiciones irá en función de su exposición y estarán vigentes hasta que sean modificadas por otras debidamente publicadas.
+              </p></br>
+              <h2>9. RECLAMACIONES Y DUDAS</h2>
+              <p>
+                Tradingusd, Inc. informa que existen hojas de reclamación a disposición de usuarios y clientes pudiendo remitir un correo a info@tradingusd.com indicando su nombre y apellidos, el servicio o producto adquirido y exponiendo los motivos de su reclamación.
+                También puede dirigir su reclamación por correo postal dirigido a: Tradingusd, Inc.
+              </p></br>
+              <h2>10. LEGISLACIÓN APLICABLE Y JURISDICCIÓN</h2>
+              <p>
+                La relación entre Tradingusd, Inc. y el USUARIO se regirá por la normativa de los Estados Unidos de Norteamerica vigente y cualquier controversia se someterá a los Juzgados y tribunales de la ciudad de New York, salvo que la Ley aplicable disponga otra cosa.
+              </p></br>
+          </div>
+        </div>
+            <div class="col-md-12 mx-auto">
+              <p>
+                Agradecemos que estés en esta página, eso significa que tus datos te importan, y quieres conocer el destino de los mismos y quién los recoge.
+              </p></br>
+              <h2 class="title">POLÍTICA DE PRIVACIDAD</h2></br>
+              <p>
+                De conformidad con en el Registro General de la Agencia Española de Protección de Datos, mediante la aceptación de la presente Política de Privacidad prestas tu consentimiento informado, expreso, libre e inequívoco para que los datos personales que proporciones a través de la página web https://www.tradingusd.com (en adelante SITIO WEB) sean incluidos en un fichero de “USUARIOS WEB Y SUSCRIPTORES” así como “CLIENTES Y/O PROVEEDORES”:
+              </p></br>
+              <p>
+                Nuestra denominación social es: Tradingusd, Inc.</br>
+                Email: info@tradingusd.com</br>
+                Nuestra actividad social es: Trading, Inversiones y Criptomonedas
+              </p></br>
+              <p>
+                Todo ello debidamente inscrito ante Ley sobre el Derecho de Autor y respecto del que Tradingusd, Inc. garantiza que se han aplicado las medidas de seguridad tanto organizativas como técnicas.
+              </p></br>
+              <p>
+                La presente Política de Privacidad será válida únicamente para los datos de carácter personal obtenidos en el Sitio Web, no siendo aplicable para aquella información recabada por terceros en otras páginas web, incluso si éstas se encuentran enlazadas por el Sitio Web.
+              </p></br>
+              <p>
+                Con ello manifiesto mi compromiso por mantener y garantizar las relaciones comerciales de forma seguridad mediante la protección de los datos personales y garantizando el derecho a la privacidad de cada uno de los usuarios de nuestro sitio web.
+              </p></br>
+              <h2>1. ¿QUÉ SON LOS DATOS PERSONALES?</h2>
+              <p>
+                Una pequeña aproximación es importante, por ello, debes saber que sería cualquier información relativa a una persona que nos facilita cuando visita nuestro sitio web, en nuestro caso nombre e email, y si compra algún producto necesitando factura, solicitaremos Domicilio completo, nombre, apellidos y CI. o RIF.
+              </p></br>
+              <p>
+                Adicionalmente, cuando visitas nuestro sitio web, determinada información se almacena automáticamente por motivos técnicos como la dirección IP asignada por su proveedor de acceso a Internet.
+              </p></br>
+              <h2>2. FINALIDAD, LEGITIMACIÓN, CATEGORÍA DE LOS DATOS RECABADOS, CONSENTIMIENTO AL TRATAMIENTO, MENORES DE EDAD.</h2></br>
+              <h3>2.1 FINALIDAD</h3>
+              <p>
+                Tal y como se recoge en la normativa, se informa al USUARIO que, a través de los formularios de contacto, o suscripciones se recaban datos, los cuales se almacenan en un fichero, con la exclusiva finalidad de envío de comunicaciones electrónicas, tales como: boletines (newsletters), nuevas entradas (posts), ofertas comerciales, webinars gratuitos, así como otras comunicaciones que Tradingusd, Inc. entiende interesantes para sus USUARIOS. Los campos marcados como de cumplimentación obligatoria, son imprescindibles para realizar la finalidad expresada.
+              </p></br>
+              <p>
+                Asimismo podrá dar cumplimiento mediante los datos, a los requerimientos solicitados por los USUARIOS.
+              </p></br>
+              <p>
+                En definitiva la FINALIDAD es la siguiente:
+              </p></br>
+              <p>
+                La venta de servicios sobre Trading, Inversiones y Criptomonedas.
+                Gestionar la lista de suscriptores y usuarios adscritos.
+                Suministro de contenidos en la página
+                Dirigir su red de afiliados y comerciantes así como la gestión de pagos de los mismos.
+              </p></br>
+              <p>
+                Únicamente el titular tendrá acceso a sus datos, y bajo ningún concepto, estos datos serán cedidos, compartidos, transferidos, ni vendidos a ningún tercero.
+              </p></br>
+              <p>
+                La aceptación de la política de privacidad, mediante el procedimiento establecido de dole opt-in, se entenderá a todos los efectos como la prestación de CONSENTIMIENTO EXPRESO E INEQUÍVOCO del USUARIO al tratamiento de los datos de carácter personal en los términos que se exponen en el presente documento, así como a la transferencia internacional de datos que se produce, exclusivamente debido a la ubicación física de las instalaciones de los proveedores de servicios y encargados del tratamiento de datos.
+              </p></br>
+              <p>
+                En ningún caso se realizará un uso diferente que la finalidad para los que han sido recabados los datos ni muchos menos cederé a un tercero estos datos.
+              </p></br>
+              <h3>2.2 MENORES DE EDAD</h3>
+              <p>
+                En el supuesto de ser mayor de dieciocho, podrás registrarte en https://www.tradingusd.com/signup sin necesidad del consentimiento previo de tus padres o tutores.
+              </p></br>
+              <p>
+                ¿Qué ocurre en el caso de que seas menor de 18 años?
+              </p></br>
+              <p>
+                En este supuesto, será condición obligatoria el consentimiento de tus padres o tutores para que podamos tratar sus datos personales
+              </p></br>
+              <p>
+                Advertencia: Si tienes menos de catorce años y no has obtenido el consentimiento de tus padres, no puedes registrarte en la web por lo que procederemos a denegar su solicitud en caso de tener constancia de ello.
+              </p></br>
+              <h3>2.3 LEGITIMACIÓN</h3>
+              <p>
+                Gracias al consentimiento, podemos tratar tus datos siendo requisito obligatorio para poder suscribirte a la página web.
+              </p></br>
+              <h3>2.4 CATEGORÍA DE LOS DATOS</h3>
+              <p>
+                Los datos recabados en ningún momento son especialmente protegidos, sino que se encuentran categorizados como datos identificativos.
+              </p></br>
+              <h3>2.5 TIEMPO DE CONSERVACIÓN DE LOS DATOS</h3>
+              <p>
+                Conservaré tus datos durante el tiempo legalmente establecido o hasta que solicites eliminarlos.
+              </p></br>
+              <h3>2.6 EXACTITUD Y VERACIDAD DE LOS DATOS</h3>
+              <p>
+                Obviamente eres el único responsable de la veracidad y exactitud de los datos que me remitas eximiéndome de cualquier tipo de responsabilidad al respecto.
+              </p></br>
+              <p>
+                Como usuario, debes garantizar la exactitud y autenticidad de los datos personales facilitados debiendo aportar la información completa y correcta en los distintos formularios de captación de datos.
+              </p></br>
+              <h2>3. CUMPLIMIENTO DE LA NORMATIVA DE APLICACIÓN</h2>
+              <p>
+                Así mismo, Tradingusd, Inc. informa que da cumplimiento a la Agencia Española de Protección de Datos, de Servicios de la Sociedad de la Información y el Comercio Electrónico y le solicitará su consentimiento al USUARIO para el tratamiento de su correo electrónico con fines comerciales en cada momento.
+              </p></br>
+              <p>
+                En cumplimiento de lo establecido en la normativa, le informamos que los datos suministrados, así como aquellos datos derivados de su navegación, podrán ser almacenados en los ficheros de Tradingusd, Inc. y tratados para la finalidad de atender su solicitud y el mantenimiento de la relación que se establezca en los formularios que suscriba.
+              </p></br>
+              <p>
+                Adicionalmente, el USUARIO consiente el tratamiento de sus datos con la finalidad de informarles, por cualquier medio, incluido el correo electrónico, de productos y servicios de Tradingusd Inc.
+              </p></br>
+              <p>
+                En caso de no autorizar el tratamiento de sus datos con la finalidad señalada anteriormente, el USUARIO podrá ejercer su derecho de oposición al tratamiento de sus datos en los términos y condiciones previstos más adelante en el apartado “Ejercicio de Derechos”
+              </p></br>
+              <h2>4. MEDIDAS DE SEGURIDAD</h2>
+              <p>
+               Tradingusd, Inc. le informa que tiene implantadas las medidas de seguridad de índole técnica y organizativas necesarias para garantizar la seguridad de sus datos de carácter personal y evitar su alteración, pérdida y tratamiento y/o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que están expuestos, ya provengan de la acción humana o del medio físico o natural.
+              </p></br>
+              <p>
+                Asimismo, Tradingusd, Inc. ha establecido medidas adicionales en orden a reforzar la confidencialidad e integridad de la información en su organización. Manteniendo continuamente la supervisión, control y evaluación de los procesos para asegurar el respeto a la privacidad de los datos.
+              </p></br>
+              <h2>5. EJERCICIO DE DERECHOS</h2>
+              <p>
+                Aquellas personas físicas que hayan facilitado sus datos a través de https://www.tradingusd.com, podrán dirigirse al titular de la misma con el fin de poder ejercitar gratuitamente sus derechos de acceso a sus datos, rectificación o supresión, limitación y oposición respecto de los datos incorporados en sus ficheros.
+              </p></br>
+              <p>
+                El método más rápido y sencillo sería accediendo en tu cuenta de usuario directamente y modificar tus datos o borrar tu cuenta de usuario. Cualquier información que necesitemos almacenar, en virtud de una obligación legal o contractual, será bloqueada y sólo utilizada para dichos fines en lugar de ser borrada.
+              </p></br>
+              <p>
+                El interesado podrá ejercitar sus derechos mediante comunicación por escrito dirigida a Tradingusd, Inc. con la referencia “Protección de datos”, especificando sus datos, acreditando su identidad y los motivos de su solicitud en la siguiente dirección:
+              </p></br>
+              <p>
+                Tradingusd, Inc.
+                New York, Estados Unidos.
+              </p></br>
+              <p>
+                También podrá ejercitar los derechos, a través del correo electrónico: info@tradingusd.com
+              </p></br>
+              <p>
+                Asimismo, Tradingusd, Inc. ha establecido medidas adicionales en orden a reforzar la confidencialidad e integridad de la información en su organización. Manteniendo continuamente la supervisión, control y evaluación de los procesos para asegurar el respeto a la privacidad de los datos.
+              </p></br>
+              <h2>6. LINKS O ENLACES EXTERNOS</h2>
+              <p>
+                Como un servicio a nuestros visitantes, nuestro sitio web puede incluir hipervínculos a otros sitios que no son operados o controlados por el Sitio Web. Por ello https://www.tradingusd.com no garantiza, ni se hace responsable de la licitud, fiabilidad, utilidad, veracidad y actualidad de los contenidos de tales sitios web o de sus prácticas de privacidad. Por favor, antes de proporcionar su información personal a estos sitios web ajenos a https://www.tradingusd.com, tenga en cuenta que sus prácticas de privacidad pueden diferir de las nuestras.
+              </p></br>
+              <p>
+                El único objeto de los enlaces es proporcionar al Usuario la posibilidad de acceder a dichos enlaces y conocer nuestro trabajo, aunque vcgs.net no ofrece ni comercializa por sí ni por medio de terceros la información, contenidos y servicios disponibles en los sitios enlazados, ni aprueba, supervisa o controla en modo alguno los contenidos y servicios y cualquier material de cualquier naturaleza existente en los mismos. https://www.tradingusd.com no se responsabiliza en ningún caso de los resultados que puedan derivarse al Usuario por acceso a dichos enlaces.
+              </p></br>
+              <h2>7. MODIFICACIÓN DE LA POLÍTICA DE PRIVACIDAD</h2>
+              <p>
+                Tradingusd, Inc. se reserva el derecho a modificar su Política de Privacidad, de acuerdo a su propio criterio, motivado por un cambio legislativo, jurisprudencial o doctrinal de la Constitución de los Estados Unidos de Norteamerica.
+              </p></br>
+              <p>
+                Cualquier modificación de la Política de Privacidad será publicada al menos diez días antes de su efectiva aplicación. El uso de Tradingusd, Inc. después de dichos cambios, implicará la aceptación de los mismos.
+              </p></br>
+              <h2>8. RESPONSABLE DEL FICHERO, Y ENCARGADOS DEL TRATAMIENTO</h2>
+              <p>
+                El responsable del fichero de datos es Tradingusd, Inc.
+              </p></br>
+              <p>
+                Como encargados de tratamiento ajenos al citado responsable:
+              </p></br>
+              <p>
+                Tradingusd, Inc. ha contratado los servicios de Hosting a SERED HOSTING, S.L (en adelante, SERED), con CIF: B32496242 e inscrita en el Registro Mercantil de Madrid, al Tomo 19514, Libro 0, Folio 77, Sección 8, Hoja M-342678. El domicilio social está C/ Rúa do Progreso 177 , 1º A Rua de Valdeorras, Ourense, Galicia., más información en https://sered.net/legal
+              </p></br>
+              <p>
+                Los servicios de suscripción por correo electrónico y envío de newsletters a la compañía Active Campaign LLC (Identificada por la marca comercial “Active Campaign”) pudiéndose consultar su política de privacidad en http://www.activecampaign.com/privacy-policy/
+              </p></br>
+              <h2>9. SERVICIOS OFRECIDOS POR TERCEROS EN ESTA WEB.</h2>
+              <p>
+                Para prestar servicios estrictamente necesarios para el desarrollo de mi actividad, https://www.tradingusd.com/ utiliza los siguientes prestadores bajo sus correspondientes condiciones de privacidad.
+              </p></br>
+              <p>
+                Hosting: SERED</br>
+                Plataforma web: tradingusd.com</br>
+                Tema web: Tradingusd</br>
+                Servicios de Mensajería y envío de boletines: Active Campaign</br>
+                Zelle, Bitcoin, Tron, AirTM y Paypal</br>
+                Privacidad de fuentes de rastreo utilizadas en este sitio: Google (Analytics)</br>
+              </p></br>
+              <p>
+                En https://www.tradingusd.com también se estudian las preferencias de sus usuarios, sus características demográficas, sus patrones de tráfico, y otra información en conjunto para comprender mejor quiénes constituyen nuestra audiencia y qué es lo que necesita. El rastreo de las preferencias de nuestros usuarios también nos ayuda a mostrarle los avisos publicitarios más relevantes.
+              </p></br>
+              <p>
+                El usuario y, en general, cualquier persona física o jurídica, podrá establecer un hiperenlace o dispositivo técnico de enlace (por ejemplo, links o botones) desde su sitio web a https://www.tradingusd.com (el “Hiperenlace“). El establecimiento del Hiperenlace no implica en ningún caso la existencia de relaciones entre https://tradingusd.com/ y el propietario del sitio o de la página web en la que se establezca el Hiperenlace, ni la aceptación o aprobación por parte de https://tradingusd.com/ de sus contenidos o servicios. En todo caso, https://www.tradingusd.com/ se reserva el derecho de prohibir o inutilizar en cualquier momento cualquier Hiperenlace al Sitio Web.
+              </p></br>
+              <h2>10. ¿NO DESEAS RECIBIR INFORMACIÓN DE NOSOTROS O DESEAS REVOCAR TU CONSENTIMIENTO?</h2>
+              <p>
+                De conformidad con lo dispuesto en la Ley Orgánica de Telecomunicaciones puedes oponerte al uso de su información para fines publicitarios, investigaciones de mercado o desarrollo de encuestas de satisfacción en cualquier momento, así como revocar tu consentimiento en cualquier momento (sin efecto retroactivo).
+              </p></br>
+              <p>
+                Para ello, deberás enviar un correo electrónico a la dirección info@tradingusd.com. Si has recibido publicidad por correo electrónico, también podrás oponerte desde dicho correo electrónico, pinchando en el enlace incluido en el mismo siguiendo las instrucciones que te sean facilitadas. Otra forma más sencilla sería acceder a tu cuenta de usuario y seleccionar las opciones correspondientes.
+              </p></br>
+              <p>
+                En relación con la gestión de tus datos asociados a los perfiles sociales de Tradingusd, Inc. , el ejercicio del derecho de acceso, dependerá de la funcionalidad de la red social y las posibilidades de acceso a la información de los perfiles de los usuarios. Con relación a los derechos de acceso y rectificación, le recomendamos que solo podrá satisfacerse en relación a aquella información que se encuentre bajo el control de Tradingusd, Inc.
+              <p>
+                Además podrá dejar de interactuar, seguir o recibir información de los perfiles sociales de Tradingusd, Inc. , eliminar los contenidos que dejen de interesarte o restringir con quien comparte sus conexiones, mediante los mecanismos estipulados en las diferentes redes sociales.
+              </p></br>
+              <p>
+                El usuario podrá acceder a las políticas de privacidad de cada Red Social, así como configurar su perfil para garantizar su privacidad. Tradingusd, Inc. anima a los usuarios a familiarizarse con las condiciones de uso de las distintas redes sociales antes de comenzar a usarlas.
+              </p></br>
+              <p>
+                Facebook: https://www.facebook.com/help/323540651073243/</br>
+                Youtube: http://www.google.es/intl/es/policies/privacy/</br>
+                Twitter: https://twitter.com/privacy</br>
+              </p></br>
+              <h2>11. SISTEMAS DE CAPTURA DE DATOS PERSONALES Y SU FINALIDAD</h2>
+              <p>
+                1) Formularios de suscripción a contenidos: dentro de la web existen varios formularios para activar la suscripción gestionada por Getresponse con la finalidad de enviar campañas de marketing por correo electrónico, gestión de suscripciones y envío de boletines o noticias.
+              </p></br>
+              <p>
+                2) Formulario de comentarios: La web incluye un formulario cuya finalidad es comentar los artículos y dar su opinión respetando la libertad de expresión. El usuario podrá publicar comentarios en los post que se publiquen. Los datos personales introducidos en el formulario para insertar estos comentarios serán utilizados exclusivamente para moderarlos y publicarlos, recabando igualmente estos datos que se almacenarán en los servidores de Webempresa.
+              </p></br>
+              <p>
+                3) Formulario de contacto: Existe un formulario de contacto cuya finalidad es la respuesta de consultas, sugerencias o contacto profesional. En este caso se utilizará la dirección de correo electrónico para responder a las mismas y enviar la información que el usuario requiera a través de la web, estos datos se almacenarán en los servidores de Webempresa y Getresponse.
+              </p></br>
+              <p>
+                4) Cookies: Cuando el usuario se registra o navega en esta web, se almacenan “cookies”, El usuario puede consultar en cualquier momento la política de cookies para ampliar información sobre el uso de cookies y como desactivarlas.
+              </p></br>
+              <p>
+                5) Venta de inforpoductos: A través de la página web, se pueden adquirir infoproductos, en este caso, se requieren datos del comprador (Nombre, apellido, dirección, e-mail, número de identificación fiscal (CI/RIF), País).
+              </p></br>
+              <p>
+                6) Los usuarios podrán darse de baja en cualquier momento de los servicios prestados por https://www.tradingusd.com desde la misma Newsletter a través de un formulario de cancelación.
+              </p></br>
+              <p>
+                7) Sistemas de rastreo utilizadas en este sitio: Google (Analytics y Tag Manager), en https://tradingusd.com/ también se estudian las preferencias de sus usuarios, sus características demográficas, sus patrones de tráfico, y otra información en conjunto para comprender mejor quiénes constituyen su audiencia y qué es lo que esta necesita. Puedes conocer la política de privacidad general de los servicios de Google <a href="https://policies.google.com/privacy?hl=es">aquí</a>. Adicionalmente, puedes conocer cómo utiliza Google la información de sitios web o aplicaciones que utilizan sus servicios <a href="https://policies.google.com/technologies/partner-sites?hl=es">aquí</a>.
+              </p></br>
+              <p>
+                El rastreo de las preferencias de nuestros usuarios también nos ayuda a mostrarte los avisos publicitarios más relevantes, por medio del uso del producto de Google, Google Adwords. De acuerdo a la política de privacidad de Google, no recolectan datos personales. Sin embargo, si no quieres que se utilicemos la herramientas de “remarketing” de Google, puedes desactivar esta opción modificando las configuraciones adecuadas aquí: https://adssettings.google.com/
+              </p></br>
+              <p>
+                Más información de como utiliza Google las cookies en publicidad: https://policies.google.com/technologies/ads?hl=es
+              </p></br>
+              <p>
+                Asimismo, me gustaría informarte que para la captación de suscriptores y clientes utilizo Facebook Ads por lo que al generar un anuncio, se puede segmentar el público por el lugar, datos demográficos, intereses, etc por lo que los datos obtenidos por esta plataforma, estarían sujetos a esta política de privacidad desde el momento en que el usuario acepta la política de cookies y privacidad.
+              </p></br>
+              <p>
+                Finalmente, me gustaría informarte que para brindar una mejor experiencia a mi lista de suscriptores y clientes utilizó sistemas de rastreo de Active Campaign (<a href="https://www.activecampaign.com/privacy-policy/">ver su política de privacidad</a>) por lo que los datos obtenidos por esta plataforma, estarían sujetos a esta política de privacidad desde el momento en que el usuario deja sus datos para unirse al boletín de mi comunidad.
+              </p></br>
+              <p>
+                No vamos a compartir, vender, alquilar tu información personal con otras partes. Podemos compartir cierta información con los proveedores de servicios de terceros autorizados necesarios para prestar algunos servicios.
+              </p></br>
+              <h2>12. PLUGINS SOCIALES.</h2>
+              <p>
+                En nuestra página web te ofrecemos enlaces y servicios relacionados con las diferentes redes sociales ( p.ej “Me gusta” de Facebook). Si eres miembro de una red social y haces clic sobre el correspondiente enlace, el proveedor de la red social podrá enlazar tus datos de perfil con la información e tu visita a dicha página web.
+              </p></br>
+              <p>
+                Por tanto, es conveniente informarte sobre las funciones y políticas sobre el tratamiento de datos personales de la respectiva red social, si accedes a una de nuestras páginas web con alguno de tus perfiles en redes sociales o compartes información a través de ellos.
+              </p></br>
+              <p>
+                Puedes acceder en todo momento a las políticas de privacidad de las diferentes redes sociales, así como configurar tu perfil para garantizar su privacidad. Os animamos a familiarizarse con las condiciones de uso de dichas redes sociales antes de comenzar a usarlas:
+              </p></br>
+              <p>
+                Facebook: https://www.facebook.com/help/323540651073243/</br>
+                Youtube: http://www.google.es/intl/es/policies/privacy/</br>
+                Twitter: https://twitter.com/privacy</br>
+              </p></br>
+              <h2>13. ACEPTACIÓN, CONSENTIMIENTO Y REVOCABILIDAD</h2>
+              <p>
+                El Usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptando y consintiendo el tratamiento de los mismos por parte de Tradingusd, Inc. en la forma y para las finalidades indicadas en el aviso legal.
+              </p></br>
+              <p>
+                Como bien sabes y le hemos comunicado a lo largo de las presentes políticas de privacidad, en cualquier momento podrá revocar sus datos, pero siempre sin carácter retroactivo.
+              </p></br>
+              <h2>14. CAMBIOS EN LA PRESENTE POLÍTICA DE PRIVACIDAD</h2>
+              <p>
+                Tradingusd, Inc. se reserva el derecho a modificar la presente política para adaptarla a novedades legislativas o jurisprudenciales así como a prácticas de la industria. En dichos supuestos, el Prestador anunciará en esta página los cambios introducidos con razonable antelación a su puesta en práctica.
+              </p></br>
+            </div>
+      </div>
+    </div>
+    </div>
+    <br /><br />
+  </div>
+  {{>footer-a}}

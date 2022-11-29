@@ -1,0 +1,402 @@
+<div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg blur blur-rounded top-0 z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
+          <div class="container-fluid">
+            <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 " href="/">
+              <img src="/img/logo-minnerg-com.png" alt="" class="img-nav">
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="navbar-nav navbar-nav-hover mx-auto">
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " id="dropdownMenuAccount" data-bs-toggle="dropdown" aria-expanded="false">
+              Autenticación
+              <img src="/img/down-arrow-dark.svg " alt="down-arrow" class="arrow ms-1 d-lg-block d-none">
+              <img src="/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1 d-lg-none d-block">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation dropdown-lg border-radius-xl p-3 mt-0 mt-lg-3" aria-labelledby="dropdownMenuAccount">
+              <div class="row d-none d-lg-flex">
+                <div class="col-6">
+                  <div class="py-6 h-100 w-100 d-flex border-radius-lg position-relative dropdown-image" style="background-image:url('/img/curved-images/curved8.jpg')">
+                    <div class="mask bg-gradient-primary border-radius-lg"></div>
+                    <div class="d-flex justify-content-center align-items-center text-center text-white font-weight-bold w-100 z-index-1 flex-column">
+                      <div class="icon icon-shape rounded-circle bg-white shadow text-center">
+                        <i class="ni ni-key-25 text-primary text-gradient text-lg" aria-hidden="true"></i>
+                      </div>
+                      <span class="text-lg mt-2">Opciones Auth<br></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 ps-0 d-flex justify-content-center flex-column">
+                  <ul class="list-group">
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" href="/login" id="dropdownSignIn">
+                        <span>Iniciar Sesión</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" href="/signup" id="dropdownSignUp">
+                        <span>Registrarse</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" id="dropdownPasswordReset">
+                        <span>Restablecer Contraseña</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" id="dropdownLock">
+                        <span>Cerrar con Llave</span>
+                      </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem list-group-item border-0 p-0">
+                      <a class="dropdown-item border-radius-md ps-3 d-flex align-items-center justify-content-between mb-1" id="dropdown2fa">
+                        <span>Verificación de dos pasos</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row d-lg-none">
+                <div class="col-12 d-flex justify-content-center flex-column">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="/signup">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Registrarse</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="/login">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Iniciar Sesión</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Restablecer Contraseña</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Cerrar con Llave</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Verificación de dos pasos</h6>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-hover mx-2">
+            <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+              Documentación
+              <img src="/img/down-arrow-dark.svg " alt="down-arrow" class="arrow ms-1 d-lg-block d-none">
+              <img src="/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1 d-lg-none d-block">
+            </a>
+            <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+              <div class="d-none d-lg-block">
+                <ul class="list-group">
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                      <div class="d-flex">
+                        <div class="icon h-10 me-3 d-flex mt-1">
+                          <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>spaceship</title>
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g transform="translate(1716.000000, 291.000000)">
+                                  <g transform="translate(4.000000, 301.000000)">
+                                    <path class="color-background" d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
+                                    <path class="color-background" d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
+                                    <path class="color-background" d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
+                                    <path class="color-background" d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" opacity="0.598539807"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Empezando</h6>
+                          <span class="text-sm">Todo sobre descripción general, inicio rápido, licencia y contenido</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item list-group-item border-0 p-0">
+                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                      <div class="d-flex">
+                        <div class="icon h-10 me-3 d-flex mt-1">
+                          <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>document</title>
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g transform="translate(1716.000000, 291.000000)">
+                                  <g transform="translate(154.000000, 300.000000)">
+                                    <path class="color-background" d="M40,40 L36.3636364,40 L36.3636364,3.63636364 L5.45454545,3.63636364 L5.45454545,0 L38.1818182,0 C39.1854545,0 40,0.814545455 40,1.81818182 L40,40 Z" opacity="0.603585379"></path>
+                                    <path class="color-background" d="M30.9090909,7.27272727 L1.81818182,7.27272727 C0.814545455,7.27272727 0,8.08727273 0,9.09090909 L0,41.8181818 C0,42.8218182 0.814545455,43.6363636 1.81818182,43.6363636 L30.9090909,43.6363636 C31.9127273,43.6363636 32.7272727,42.8218182 32.7272727,41.8181818 L32.7272727,9.09090909 C32.7272727,8.08727273 31.9127273,7.27272727 30.9090909,7.27272727 Z M18.1818182,34.5454545 L7.27272727,34.5454545 L7.27272727,30.9090909 L18.1818182,30.9090909 L18.1818182,34.5454545 Z M25.4545455,27.2727273 L7.27272727,27.2727273 L7.27272727,23.6363636 L25.4545455,23.6363636 L25.4545455,27.2727273 Z M25.4545455,20 L7.27272727,20 L7.27272727,16.3636364 L25.4545455,16.3636364 L25.4545455,20 Z"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Documentación Gráfica</h6>
+                          <span class="text-sm">Observe de manera explícita el proyecto</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row d-lg-none">
+                <div class="col-md-12 g-0">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                    <div class="d-flex">
+                      <div class="icon h-10 me-3 d-flex mt-1">
+                        <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <title>spaceship</title>
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                              <g transform="translate(1716.000000, 291.000000)">
+                                <g transform="translate(4.000000, 301.000000)">
+                                  <path class="color-background" d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
+                                  <path class="color-background" d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
+                                  <path class="color-background" d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
+                                  <path class="color-background" d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" opacity="0.598539807"></path>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                      <div>
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Empezando</h6>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="">
+                      <div class="d-flex">
+                        <div class="icon h-10 me-3 d-flex mt-1">
+                          <svg class="text-secondary" width="16px" height="16px" viewBox="0 0 40 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>document</title>
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                              <g transform="translate(-1870.000000, -591.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                <g transform="translate(1716.000000, 291.000000)">
+                                  <g transform="translate(154.000000, 300.000000)">
+                                    <path class="color-background" d="M40,40 L36.3636364,40 L36.3636364,3.63636364 L5.45454545,3.63636364 L5.45454545,0 L38.1818182,0 C39.1854545,0 40,0.814545455 40,1.81818182 L40,40 Z" opacity="0.603585379"></path>
+                                    <path class="color-background" d="M30.9090909,7.27272727 L1.81818182,7.27272727 C0.814545455,7.27272727 0,8.08727273 0,9.09090909 L0,41.8181818 C0,42.8218182 0.814545455,43.6363636 1.81818182,43.6363636 L30.9090909,43.6363636 C31.9127273,43.6363636 32.7272727,42.8218182 32.7272727,41.8181818 L32.7272727,9.09090909 C32.7272727,8.08727273 31.9127273,7.27272727 30.9090909,7.27272727 Z M18.1818182,34.5454545 L7.27272727,34.5454545 L7.27272727,30.9090909 L18.1818182,30.9090909 L18.1818182,34.5454545 Z M25.4545455,27.2727273 L7.27272727,27.2727273 L7.27272727,23.6363636 L25.4545455,23.6363636 L25.4545455,27.2727273 Z M25.4545455,20 L7.27272727,20 L7.27272727,16.3636364 L25.4545455,16.3636364 L25.4545455,20 Z"></path>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>
+                        <div>
+                          <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center p-0">Documentación Gráfica</h6>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="/login" class="btn btn-sm  bg-gradient-secondary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Iniciar Sesión</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-lg-block d-none">
+          <li class="nav-item">
+            <a href="/signup" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')">Registrarse</a>
+          </li>
+        </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TradingView Widget BEGIN -->
+  <div class="tradingview-widget-container" style="position: fixed; z-index: 1; margin-top: 13vh;">
+    <div class="tradingview-widget-container__widget"></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "Nasdaq 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR/USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "BTC/USD"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "ETH/USD"
+      }
+    ],
+    "showSymbolLogo": false,
+    "colorTheme": "white",
+    "isTransparent": true,
+    "displayMode": "adaptive",
+    "locale": "es"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+<div class="wrapper" style="margin-top: 30vh;">
+    <div class="section section-team text-left"  data-background-color="black">
+      <div class="container">
+        <div class="team">
+          <div class="row">
+            <div>
+              <p>
+                Tras una auditoría realizada para la información sobre las Cookies que se usan en esta web, te informamos:
+              </p></br>
+              <h2>NUESTRA POLÍTICA DE COOKIES</h2>
+              <p>
+                El artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, obliga a todos los que tenemos una web a advertir al usuario de la existencia de cookies, informar sobre ellas y requerirle permiso para descargarlas.
+              </p></br>
+              <p>
+                Debes conocer que teniendo en cuenta la forma en la que funciona Internet y los sitios web, no siempre es posible contar con información actualizada de las cookies que terceras partes puedan utilizar a través de este sitio web.
+              </p></br>
+              <p>
+                Esto se aplica especialmente a casos en los que esta página web contiene elementos integrados: es decir, textos, documentos, imágenes o breves películas que se almacenan en otra parte, pero se muestran en nuestro sitio web.
+              </p></br>
+              <p>
+                Por consiguiente, en caso de que te encuentres con este tipo de cookies en este sitio web y no estén enumeradas en la lista siguiente, te ruego que me lo comuniques. También puedes ponerte en contacto directamente con el tercero para pedirle información sobre las cookies que coloca, la finalidad y la duración de la cookie, y cómo ha garantizado su privacidad.
+              </p></br>
+              <h2>Previo.- ¿Qué son las Cookies?</h2>
+              <p>
+                Las cookies constituyen una herramienta empleada por los servidores Web para almacenar y recuperar información acerca de sus visitantes. No es más que un fichero de texto que algunos servidores piden a nuestro navegador que escriba en nuestro disco duro, con información acerca de lo que hemos estado haciendo por sus páginas. Poseen una fecha de caducidad, que puede oscilar desde el tiempo que dure la sesión hasta una fecha futura especificada, a partir de la cual dejan de ser operativa.
+              </p></br>
+              <h2>1. Las cookies que utiliza esta web</h2>
+              <p>
+                En esta web se utilizan cookies propias y de terceros para conseguir que tengas una mejor experiencia de navegación, puedas compartir contenido en redes sociales, para mostrarte anuncios en función a tus intereses y para obtener estadísticas de usuarios.
+              </p>
+              <p>
+                Por ello, las cookies empleadas en https://www.tradingusd.com se asocian únicamente con un Usuario anónimo y su ordenador, no proporcionan referencias que permitan deducir el nombre y apellidos del Usuario y no pueden leer datos de su disco duro ni incluir virus en sus textos. Asimismo, https://www.tradingusd.com no puede leer las cookies implantadas en el disco duro del Usuario desde otros servidores.
+              </p></br>
+              <p>
+                El usuario puede libremente decidir acerca de la implantación o no en su disco duro de las cookies empleadas en https://www.tradingusd.com En este sentido, el usuario puede configurar su navegador para aceptar o rechazar por defecto todas las cookies o para recibir un aviso en pantalla de la recepción de cada cookie y decidir en ese momento su implantación o no en su disco duro. Para ello le sugerimos consultar la sección de ayuda de su navegador para saber cómo cambiar la configuración que actualmente emplea. Aun cuando el Usuario configurase su navegador para rechazar todas las cookies o rechazase expresamente las cookies de https://www.tradingusd.com podrás navegar por el Portal con el único inconveniente de no poder disfrutar de las funcionalidades del Portal que requieran la instalación de alguna de ellas. En cualquier caso, el Usuario podrá eliminar las cookies implantadas en su disco duro en cualquier momento, siguiendo el procedimiento establecido en la sección de ayuda de su navegador y que posteriormente detallaremos.
+              </p></br>
+              <p>
+                Como usuario que eres, puedes rechazar el tratamiento de los datos o la información bloqueando estas cookies mediante la configuración apropiada de tu navegador. Sin embargo, debes saber que, si lo haces, este sitio no funcione adecuadamente.
+              </p></br>
+              <p>
+                Según los términos incluidos en el artículo 15  de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, si continúas navegando, estarás prestando tu consentimiento para el empleo de las cookies que detallo a continuación.
+              </p></br>
+              <p>
+                Las cookies de esta web ayudan a:
+              </p></br>
+              <ul>
+                <li>Hacer que esta web funcione correctamente</li>
+                <li>Ahorrarle el tener que iniciar sesión cada vez que visitas este sitio</li>
+                <li>Recordarte tus ajustes durante y entre las visitas</li>
+                <li>Permitirte visualizar videos</li>
+                <li>Mejorar la velocidad / seguridad del sitio</li>
+                <li>Que pueda compartir páginas con redes sociales</li>
+                <li>Mejorar continuamente de este sitio web</li>
+                <li>Mostrarte anuncios en función de tus hábitos de navegación</li>
+              </ul>
+              <p>No utilizaremos jamás cookies para:</p>
+              <ul>
+                <li>Recoger información de identificación personal (sin tu permiso expreso)</li>
+                <li>Recoger información sensible (sin tu permiso expreso)</li>
+                <li>Compartir datos de identificación personal a terceros</li>
+              </ul></br>
+              <h2>2. Cookies de terceros que utilizamos en esta web y que debes conocer</h2>
+              <p>
+                Esta web, como la mayoría de sitios web, incluye funcionalidades proporcionadas por terceros.
+              </p></br>
+              <p>
+                También se ponen a prueba regularmente nuevos diseños o servicios de terceros para recomendaciones e informes.
+              </p></br>
+              <p>
+                Esto puede modificar ocasionalmente la configuración de cookies y que aparezcan cookies no detalladas en la presente política. Es importante que sepas que son cookies provisionales que no siempre es posible informar y que solo tienen finalidades de estudio y valoración. En ningún caso se van a utilizar cookies que comprometan tu privacidad.
+              </p></br>
+              <p>
+                Entre las cookies de terceros más estables están:
+              </p></br>
+              <ul>
+                <li>Las generadas por servicios de análisis, concretamente, Google Analytics para ayudar al website a analizar el uso que hacen los Usuarios del sitio web y mejorar la usabilidad del mismo, pero en ningún caso se asocian a datos que pudieran llegar a identificar al usuario.</li>
+              </ul>
+              <p>
+                Google Analytics, es un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”).
+              </p></br>
+              <p>
+                El usuario puede consultar aquí el tipo de cookies utilizadas por Google. Cookie de Google+ y Google Maps, según lo dispuesto en su página sobre qué tipo de cookies utilizan.
+              </p></br>
+              <p>
+                Asimismo, en ocasiones utilizamos Cookies generadas por el sistema de rastreo de Active Campaign LLC, empresa suscrita al Privacy Shield, para analizar el uso que hacen nuestros suscriptores del sitio web y mejorar su experiencia. Puedes conocer la política de privacidad de esta plataforma aquí.
+              </p></br>
+              <ul>
+                <li>Cookies de redes sociales: Las Cookies de redes sociales pueden almacenarse en su navegador mientras navega por la web o cuando utiliza el botón de compartir contenidos de abcoach.com en alguna red social.</li>
+              </ul>
+              <p>
+                Las empresas que generan estas cookies correspondientes a las redes sociales que utiliza esta web tienen sus propias políticas de cookies:
+              </p></br>
+              <ul>
+                <li>Cookie de Twitter, según lo dispuesto en su política de privacidad y uso de cookies.</li>
+                <li>Cookie de Linkedin, según lo dispuesto en su Política de cookies</li>
+                <li>Cookie de Facebook, según lo dispuesto en su Política de Cookies</li>
+                <li>Cookie de Youtube, según lo dispuesto en su Política de Cookies</li>
+              </ul>
+              <p>
+                Las implicaciones de privacidad estarán en función a cada red social y dependerán de la configuración de privacidad que ha elegido en estas redes. En ningún caso, ni el responsable de esta web ni los anunciantes pueden obtener información personal identificable de estas cookies.
+              </p></br>
+              <h2>3. ¿Cómo puedo gestionar y desactivar estas cookies?</h2>
+              <p>
+                En el caso de no desear que el sitio web no instale ninguna cookie en tu equipo, cabe la posibilidad de adaptar tu navegador de modo que se te notifique antes de que se descargue ninguna cookie.
+              </p></br>
+              <p>
+                Así las cosas, se puede igualmente modificar la configuración del navegador de forma que rechace todas las cookies o únicamente las cookies de terceros. También puedes eliminar cualquiera de las cookies que ya se encuentren en tu equipo. Ten en cuenta que tendrás que adaptar por separado la configuración de cada navegador y equipo que utilices.
+              </p></br>
+              <p>
+                https://www.tradingusd.com  pone a disposición de los usuarios que quieran impedir la instalación de las mencionadas cookies, enlaces facilitados al efecto por navegadores cuyo uso se considera más extendido:
+              </p></br>
+              <p>
+                Google Chrome - Brave – Internet Explorer – Mozilla Firefox – Apple Safari
+              </p></br>
+              <p>
+                Política de Cookies a 28 de febrero del 2022.
+              </p></br>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{>footer-a}}
